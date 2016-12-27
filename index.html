@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parrot Trouble</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+           <h1 class="text-center">¿El loro en que hora esta en problemas?</h1>
+           <br>
+           <br>
+            <div class="col-md-6">
+               <h3>Hora</h3>
+                <select name="" class="form-control" id="time">
+                   <option value="0">0:00</option>
+                    <option value="1">1:00</option>
+                    <option value="2">2:00</option>
+                    <option value="3">3:00</option>
+                    <option value="4">4:00</option>
+                    <option value="5">5:00</option>
+                    <option value="6">6:00</option>
+                    <option value="7">7:00</option>
+                    <option value="8">8:00</option>
+                    <option value="9">9:00</option>
+                    <option value="10">10:00</option>
+                    <option value="11">11:00</option>
+                    <option value="12">12:00</option>
+                    <option value="13">13:00</option>
+                    <option value="14">14:00</option>
+                    <option value="15">15:00</option>
+                    <option value="16">16:00</option>
+                    <option value="17">17:00</option>
+                    <option value="18">18:00</option>
+                    <option value="19">19:00</option>
+                    <option value="20">20:00</option>
+                    <option value="21">21:00</option>
+                    <option value="22">22:00</option>
+                    <option value="23">23:00</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+               <h3>¿Si esta hablando o no?</h3>
+                <select name="" class="form-control" id="hablando">
+                    <option value="1">si</option>
+                    <option value="2">no</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <p><button onclick="calcular()">Evaluar</button></p>
+                <div id="salida" class="caja"></div>
+            </div>
+            <div>
+                <h4>NOTA:</h4>
+                <p>* Si muestra "1" esta en problemas</p>
+                <p>* Si muestra "0" no esta en problemas </p>
+            </div>
+         </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
